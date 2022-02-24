@@ -1,0 +1,45 @@
+ .container{
+  width: 80%;
+  height: 450px;
+  position: relative;
+  margin: 100px;
+  background-color: aqua;
+ }
+ .tab-menu{
+       display: flex;
+ }
+
+.tab-menu div{
+        margin-top: 15px;
+            background-color: orange;
+        padding: 10px 35px;
+        
+        font-size: 17px;
+        border: 1px solid grey;
+        cursor: pointer;
+        font-weight: bold;
+    }
+.content{
+    margin: 20px;
+}
+    
+.active{
+       background-color: rgb(104, 70, 7) !important;
+       color: red;
+       transition: .4s;
+}
+    
+.left{
+      margin-left: 25px;
+      width: 50%;
+}
+  
+  
+.right img{
+      margin-top: 50px;
+      width: 450px;
+      height: 250px;
+      margin-right: 25px;
+}
+
+ 

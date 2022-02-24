@@ -1,0 +1,23 @@
+ul{
+    list-style: none;
+    width: 400px ;
+}
+
+ul li {
+    width: 100%;
+    background: gray;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    padding-left: 15px;
+}
+
+ul li span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    text-align: center;
+    background-color: red;
+    cursor: pointer;
+}
